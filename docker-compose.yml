@@ -1,8 +1,9 @@
 version: "3"
 services:
-  midra-laba-api: # サービス名
-    container_name: midra-laba-api
+  midra-lab-api: # サービス名
+    container_name: midra-lab-api
     build: .
     tty: true
     volumes:
       - ./app:/go/src/app
+    env_file: app/.env
