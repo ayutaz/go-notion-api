@@ -1,1 +1,6 @@
 # midra-lab-notion-api
+MidraLab向けのNotionAPIの制限付き公開API
+
+## 背景
+MidraLabではNotionを使ってコミュニティ活動を行っているが、個人のNotionアカウントを使っているためAPIをそもまま使った場合すべてのページが見れてしまう。
+そのため、コミュニティページの範囲のみアクセスできる疑似APIを作成
