@@ -1,7 +1,7 @@
 version: "3"
 services:
-  midra-lab-api: # サービス名
-    container_name: midra-lab-api
+  go-notion-api: # サービス名
+    container_name: go-notion-api
     build: .
     tty: true
     volumes:
